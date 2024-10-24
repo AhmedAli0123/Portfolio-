@@ -42,7 +42,7 @@ export const data =[
         id:1,
         title:"Todo List",
         desc:"Create a Todo-list with the help of HTML, CSS and TypeScript",
-        image: '/../todo-list.png',
+        image: '/todo-list.png',
         tags:["HTML" ,"CSS", "TypeScript"]
     },
     {
