@@ -1,5 +1,5 @@
 import React from 'react'
-import {propsType} from '@/models/User'
+import {propsType} from '../models/User'
 
 const Heading:React.FC<propsType> = ({title}) => {
   return (

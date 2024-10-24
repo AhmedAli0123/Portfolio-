@@ -1,7 +1,8 @@
 "use client"
 import React from 'react';
-import { headerItem} from '@/constans/constant';
-import {data} from '@/constans/constant'
+
+import { headerItem } from '../constans/constant';
+import {data} from '../constans/constant'
 import Heading from './Heading';
 import Cards from './Cards';
 

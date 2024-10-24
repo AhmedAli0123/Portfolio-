@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from 'react';
-import { headerItem } from '@/constans/constant';
+import { headerItem } from '../constans/constant';
 
 const Contact: React.FC = () => {
   // State for modal visibility

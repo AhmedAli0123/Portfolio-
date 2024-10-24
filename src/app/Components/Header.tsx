@@ -1,9 +1,9 @@
 "use client"
 
-import { userInfo,headerItem } from '@/constans/constant'
+import { userInfo,headerItem } from '../constans/constant'
 import { TiThMenu } from "react-icons/ti"
 import React, { useState } from 'react'
-import { NavItem } from '@/models/User';
+import { NavItem } from '../models/User';
 import {Link as ScrollLink }  from 'react-scroll';
 
 

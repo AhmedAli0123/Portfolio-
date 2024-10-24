@@ -1,5 +1,6 @@
 
-import { NavItem, UserObject,} from "@/models/User"
+// import { NavItem, UserObject,} from "./models/User"
+import { NavItem,UserObject } from "../models/User"
 
 
 

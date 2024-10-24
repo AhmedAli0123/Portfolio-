@@ -1,6 +1,6 @@
 "use client"
 import React from 'react';
-import { headerItem, userInfo} from '@/constans/constant';
+import { headerItem, userInfo} from '../constans/constant';
 import Image from 'next/image';
 
 const About: React.FC = () => {

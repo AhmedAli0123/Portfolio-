@@ -1,7 +1,7 @@
 "use client"
 
 import React from 'react'
-import Main from '@/Pages/Main'
+import Main from './Pages/Main'
 import AOS from "aos"
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
