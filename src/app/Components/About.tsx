@@ -7,7 +7,7 @@ const About: React.FC = () => {
   return (
     <section
       id={headerItem.about.page}
-      className='text-white h-screen flex flex-col mt-[300px] text-center justify-center items-center md:flex-row md:mt-1 md:text-start'
+      className='text-white h-screen flex flex-col mt-[400px] text-center justify-center items-center md:flex-row md:mt-1 md:text-start'
     >
       <div className='m-4 md:ml-20 sm:ml-12 md:w-1/2'>
         <h1 className='text-6xl my-6 font-bold'>About</h1>
@@ -37,7 +37,8 @@ const About: React.FC = () => {
         <div 
         className='mt-3 w-3/4 break-words' data-aos="zoom-in-up">
           {userInfo.skills.map((skill, index) => (
-            <span key={index} className='bg-pink-500 m-1 p-2 text-sm inline-block text-black font-bold rounded-md hover:bg-gray-400 cursor-pointer'>
+            <span key={index} className='bg-pink-500 m-1 p-2 text-sm inline-block text-black font-bold rounded-md
+                hover:bg-gray-400 cursor-pointer  transition-transform duration-200 ease-in transform hover:scale-110'>
               {skill}
             </span>
           ))}

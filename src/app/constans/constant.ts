@@ -33,58 +33,66 @@ export const headerItem: NavItem ={
 export const data =[
     {
         id:0,
-        title:"Count Down Timer",
-        desc:"Create Count Down Timer Using Next Js",
-        image: '/Countdown TImer.png',
-        tags:["React", "Next Js" , "TypeScript" ,"Tailwind CSS"]
+        title:"Edcuate Web Page",
+        desc:"Create a Fully Responsive website using HTML, CSS and JavaScript ",
+        image: '/Responsive Site.png',
+        tags:["HTML", "CSS", "JavaScript"],
+        url:"https://fully-responsive-website-jlgc.vercel.app/"
     },
     {
         id:1,
-        title:"Todo List",
-        desc:"Create a Todo-list with the help of HTML, CSS and TypeScript",
-        image: '/todo-list.png',
-        tags:["HTML" ,"CSS", "TypeScript"]
+        title:"Panacloud",
+        desc:"Create a Panacloud Website using HTML, CSS and JavaScript ",
+        image: '/panacloud.png',
+        tags:["HTML", "CSS", "JavaScript"],
+        url:"https://giaic-pana-cloud-website.vercel.app/"
+    },
+    {
+        id:2,
+        title:"Resume Builder",
+        desc:"This is hackathon project to build a Resume Builder with the help of HTML , CSS , TypeScript",
+        image: '/Hackathon.png',
+        tags:["HTML" ,"CSS"  , "TypeScript"],
+        url:"https://hackathon-project-miles-stone-05-resume-builder.vercel.app/"
     },
     {
         id:3,
-        title:"Resume Builder",
-        desc:"This is hackathon project to build a Resume Builder with the help of HTML , CSS , TypeScript",
-        image: '/Screenshot (5).png',
-        tags:["HTML" ,"CSS"  , "TypeScript"]
+        title:"Figma Design",
+        desc:"Restrucutre the Figma design into Next Js and Tailwind",
+        image: '/Figma-assin1.png',
+        tags:["Next Js", "React","Tailwind CSS", ],
+        url:"https://figma-to-code-in-nextjs.vercel.app/"
     },
     {
         id:4,
-        title:"Currency Converter",
-        desc:"This is CLI Currency Converte which is a project of typscript using inquirer",
-        image: '/currency.png',
-        tags:["TypeScript" ,"Node-JS", "Inquirer"  ]
+        title:"Count Down Timer",
+        desc:"Create Count Down Timer Using Next Js",
+        image: '/Countdown TImer.png',
+        tags:["React", "Next Js" ,"Tailwind CSS"],
+        url:"https://count-down-timer-alpha-beige.vercel.app/"
     },
     {
         id:5,
-        title:"Student Mangment System",
-        desc:"This is CLI Mangement System which is a project of typscript using inquirer",
-        image: '/student.jpeg',
-        tags:["React", "Next Js" , "TypeScript" ,"Tailwind CSS"]
+        title:"Todo List",
+        desc:"Create a Todo-list with the help of HTML, CSS and TypeScript",
+        image: '/todo-list.png',
+        tags:["HTML" ,"CSS", "TypeScript"],
+        url:"https://todo-list-sigma-bay-62.vercel.app/"
     },
     {
         id:6,
-        title:"Ahmed PC Emporium",
-        desc:"Create a simple website using HTML and CSS ",
-        image: '/Pc Site.jpg',
-        tags:["HTML", "CSS"]
+        title:"Currency Converter",
+        desc:"This is CLI Currency Converte which is a project of typscript using inquirer",
+        image: '/currency.png',
+        tags:["TypeScript" ,"Node-JS", "Inquirer"  ],
+        url:"https://github.com/AhmedAli0123/Currency-Converter.git"
     },
     {
         id:7,
-        title:"/Shoes Website.jpg",
-        desc:"Create a simple website using HTML and CSS ",
-        image: '/Shoes Website.jpg',
-        tags:["HTML", "CSS"]
-    },
-    {
-        id:8,
-        title:"Amazon Clone Web-Page",
-        desc:"Create Amazon Clone Web-Page To improve My Skills In Styling In CSS ",
-        image: '/Amazon Clone.jpg',
-        tags:["HTML", "CSS"]
+        title:"Student Mangment System",
+        desc:"This is CLI Mangement System which is a project of typscript using inquirer",
+        image: '/student.jpeg',
+        tags:["TypeScript" ,"Node-JS", "Inquirer"  ],
+        url:"https://github.com/AhmedAli0123/Student-Managment-System.git"
     },
 ]

@@ -1,18 +1,18 @@
 "use client";
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { headerItem } from '../constans/constant';
 
 const Contact: React.FC = () => {
   // State for modal visibility
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [formStatus, setFormStatus] = useState<string | null>(null);
+  const formRef = useRef<HTMLFormElement>(null); // Ref for form control
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     const formData = new FormData(e.currentTarget as HTMLFormElement);
   
-    // Add your Web3Forms access key here
-    formData.append("access_key", "ae1f14d9-2356-418c-8f09-d125dd752ad9");
+    formData.append("access_key", "ae1f14d9-2356-418c-8f09-d125dd752ad9"); // Web3Forms access key
   
     try {
       const response = await fetch("https://api.web3forms.com/submit", {
@@ -21,11 +21,12 @@ const Contact: React.FC = () => {
       });
   
       if (response.ok) {
-        setFormStatus('success'); // Set status to success
-        setIsModalOpen(true);     // Show modal
+        setFormStatus('success'); 
+        setIsModalOpen(true);
+        formRef.current?.reset(); // Reset the form only after success
       } else {
-        setFormStatus('error');   // Set status to error
-        setIsModalOpen(true);     // Show modal
+        setFormStatus('error'); 
+        setIsModalOpen(true);
       }
     } catch (error) {
       console.error('Error submitting the form:', error);
@@ -33,7 +34,6 @@ const Contact: React.FC = () => {
       setIsModalOpen(true);
     }
   };
-  
 
   // Close modal
   const closeModal = () => setIsModalOpen(false);
@@ -111,7 +111,7 @@ const Contact: React.FC = () => {
             </div>
 
 
-        <form onSubmit={handleSubmit} className="ml-auto space-y-4">
+            <form ref={formRef} onSubmit={handleSubmit} className="ml-auto space-y-4">
           <input
             type="text"
             name="name"
@@ -141,7 +141,8 @@ const Contact: React.FC = () => {
           ></textarea>
           <button
             type="submit"
-            className="text-white bg-pink-700 hover:bg-pink-900 tracking-wide rounded-md text-sm px-4 py-3 w-full mt-6"
+            className="text-white bg-pink-700 hover:bg-pink-900 tracking-wide rounded-md 
+            text-sm px-4 py-3 w-full mt-6  transition-transform duration-200 ease-in transform hover:scale-105"
           >
             Send
           </button>
@@ -158,7 +159,7 @@ const Contact: React.FC = () => {
             className="bg-white p-6 rounded-lg shadow-lg w-96 text-center relative"
             onClick={(e) => e.stopPropagation()}
           >
-            <h2 className={`text-2xl font-bold ${formStatus === 'success' ? 'text-green-600' : 'text-red-600'}`}>
+            <h2 className={`text-2xl font-bold ${formStatus === 'success' ? 'text-pink-600' : 'text-red-600'}`}>
               {formStatus === 'success' ? 'Message Sent!' : 'Submission Failed'}
             </h2>
             <p className="mt-4 text-gray-700">
@@ -168,7 +169,7 @@ const Contact: React.FC = () => {
             </p>
             <button
               onClick={closeModal}
-              className="mt-6 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
+              className="mt-6 px-4 py-2 bg-pink-600 text-white rounded hover:bg-pink-700"
             >
               Close
             </button>
