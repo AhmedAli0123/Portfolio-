@@ -2,7 +2,6 @@
 
 import { userInfo, headerItem } from "../constans/constant";
 import { TiThMenu } from "react-icons/ti";
-import React, { useState } from "react";
 import { Link as ScrollLink } from "react-scroll";
 import { ThemeBtn } from "@/components/Theme-btn";
 import { Sheet, SheetTrigger, SheetContent, SheetHeader } from "@/components/ui/sheet";
