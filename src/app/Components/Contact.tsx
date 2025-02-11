@@ -41,18 +41,18 @@ const Contact: React.FC = () => {
   return (
     <section
       id={headerItem.contact.page}
-      className="text-white flex flex-col text-center justify-center mt-[250px] md:mt-[100px] items-center"
+      className=" flex flex-col text-center justify-center mt-[250px] md:mt-[100px] items-center"
     >
       <h1 className='text-6xl my-6 font-bold'>Contact Us</h1>
       
       <div className="grid sm:grid-cols-2 items-start gap-16 p-4 mx-auto max-w-4xl mt-4 font-[sans-serif]">
             <div>
                 <h1 className="text-pink-700 text-3xl font-extrabold">Let&#39;s Talk</h1>
-                <p className="text-sm text-gray-300 mt-4">Have some big idea or brand to develop and need help? Then reach out we&#39;d love to hear about your project  and provide help.</p>
+                <p className="text-sm text-black dark:text-gray-300 mt-4">Have some big idea or brand to develop and need help? Then reach out we&#39;d love to hear about your project  and provide help.</p>
 
                 <div className="mt-12 flex flex-col justify-center text-center items-center">
-                    <h2 className="text-gray-300 text-base font-bold">Email</h2>
-                    <ul className="mt-4 mr-7 relative right-5">
+                    <h2 className="text-black dark:text-gray-300 text-base font-bold">Email</h2>
+                    <ul className="mt-4 mr-7 relative right-5 flex-col justify-center items-center">
                         <li className="flex items-center justify-center">
                             <div className="bg-[#e6e6e6cf] hover:bg-gray-500 h-10 w-10 rounded-full flex items-center justify-center shrink-0">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill='#007bff'
@@ -71,7 +71,7 @@ const Contact: React.FC = () => {
                 </div>
 
                 <div className="mt-12">
-                    <h2 className="text-gray-300 text-base font-bold">Socials</h2>
+                    <h2 className="text-black dark:text-gray-300 text-base font-bold">Socials</h2>
 
                     <ul className="flex mt-4 space-x-4 justify-center">
                         <li className="bg-[#e6e6e6cf]  hover:bg-gray-500 h-10 w-10 rounded-full flex items-center justify-center shrink-0">
@@ -117,27 +117,27 @@ const Contact: React.FC = () => {
             name="name"
             placeholder="Name"
             required
-            className="w-full rounded-md py-3 px-4 bg-black text-sm focus:bg-gray-300 focus:text-black"
+            className="w-full rounded-md py-3 px-4 dark:bg-black text-sm focus:bg-gray-300 focus:text-black border-2 border-black dark:border-white dark:text-white"
           />
           <input
             type="email"
             name="email"
             placeholder="Email"
             required
-            className="w-full rounded-md py-3 px-4 bg-black text-sm focus:bg-gray-300 focus:text-black"
+            className="w-full rounded-md py-3 px-4 dark:bg-black text-sm focus:bg-gray-300 focus:text-black border-2 border-black dark:border-white dark:text-white"
           />
           <input
             type="text"
             name="subject"
             placeholder="Subject"
-            className="w-full rounded-md py-3 px-4 bg-black text-sm focus:bg-gray-300 focus:text-black"
+            className="w-full rounded-md py-3 px-4 dark:bg-black text-sm focus:bg-gray-300 focus:text-black border-2 border-black dark:border-white dark:text-white"
           />
           <textarea
             name="message"
             placeholder="Message"
             rows={6}
             required
-            className="w-full rounded-md px-4 bg-black text-sm pt-3 focus:bg-gray-300 focus:text-black"
+            className="w-full rounded-md px-4 dark:bg-black text-sm pt-3 focus:bg-gray-300 focus:text-black border-2 border-black dark:border-white dark:text-white"
           ></textarea>
           <button
             type="submit"

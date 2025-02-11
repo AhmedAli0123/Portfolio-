@@ -13,7 +13,7 @@ const Projects: React.FC = () => {
   return (
     <section
       id={headerItem.projects.page}
-      className='text-white  flex flex-col text-center justify-center mt-[350px] md:mt-[100px] items-center'
+      className='flex flex-col text-center justify-center mt-[350px] md:mt-[100px] items-center'
     >
       <div>
         <Heading title='Projects'/>

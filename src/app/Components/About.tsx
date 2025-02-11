@@ -7,7 +7,7 @@ const About: React.FC = () => {
   return (
     <section
       id={headerItem.about.page}
-      className='text-white h-screen flex flex-col mt-[400px] text-center justify-center items-center md:flex-row md:mt-1 md:text-start'
+      className='h-screen flex flex-col mt-[400px] text-center justify-center items-center md:flex-row md:mt-1 md:text-start'
     >
       <div className='m-4 md:ml-20 sm:ml-12 md:w-1/2'>
         <h1 className='text-6xl my-6 font-bold'>About</h1>

@@ -1,5 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
+import { Button } from '@/components/ui/button'
 
 interface propsType{
     title:string,
@@ -27,19 +29,18 @@ const Cards:React.FC<propsType> = ({title, desc ,img ,tags, url}) => {
         <div className='p-4 space-y-4'>
             <div className='text-4xl font-extralight'>{title}</div>
             <div>{desc}</div>
-            <div>
+            <div className='grid grid-cols-2 gap-2'>
                 {tags.map((el)=>(
-                    <div className='tags' key={el}> 
+                    <div className='tags bg-pink-700' key={el}> 
                         {el}
                     </div>))
                 }
             </div>
             <div>
-                    <a href={url} target='_blank' >
-                        <button className='mt-6 w-28 h-10 bg-pink-700 text-white rounded-md hover:bg-pink-800
-                            transition-transform duration-200 ease-in transform hover:scale-105'>View Project
-                        </button>
-                    </a>
+                    <Link href={url} target='_blank' >
+                        <Button className='mt-6 w-28 h-10 bg-pink-700 text-white rounded-md hover:bg-pink-800
+                            transition-transform duration-200 ease-in transform hover:scale-105'>View Project</Button>
+                    </Link>
                 </div>
         </div>
 

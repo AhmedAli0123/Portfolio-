@@ -17,7 +17,7 @@ export const userInfo: UserObject = {
         <p>When I&#39;m not [working on your craft], I enjoy [hobby or personal interest], which helps keep my mind fresh and inspired for new challenges. </p>
         `,
     
-        skills: ['React', 'Next-JS',  'JavaScript', 'TypeScript', 'Python', 'TailWind-CSS',  'Bootstrap',  'Docker', 'HTML', 'CSS'],
+        skills: ['React', 'Next-JS', 'Sanity', "Headless CMS" ,  'JavaScript', 'TypeScript', 'Python', 'TailWind-CSS',  'Bootstrap',  'Docker', 'HTML', 'CSS'],
 }
 
 export const headerItem: NavItem ={
@@ -33,6 +33,14 @@ export const headerItem: NavItem ={
 export const data =[
     {
         id:0,
+        title:"Food Tunk",
+        desc:"Created a Full Stack Q-commerce Website using Headless CMS",
+        image: '/food-tuunk.png',
+        tags:["Next Js", "Tailwind CSS", "JavaScript", "TypeScript", "Sanity", "Stripe"],
+        url:"https://food-tunk.vercel.app/"
+    },
+    {
+        id:1,
         title:"Edcuate Web Page",
         desc:"Create a Fully Responsive website using HTML, CSS and JavaScript ",
         image: '/Responsive Site.png',
@@ -40,15 +48,15 @@ export const data =[
         url:"https://fully-responsive-website-jlgc.vercel.app/"
     },
     {
-        id:1,
-        title:"Panacloud",
-        desc:"Create a Panacloud Website using HTML, CSS and JavaScript ",
-        image: '/panacloud.png',
-        tags:["HTML", "CSS", "JavaScript"],
-        url:"https://giaic-pana-cloud-website.vercel.app/"
+        id:2,
+        title:"Content Sphere",
+        desc:"Create a full Stack Blogging Website using Next Js, Tailwind CSS, TypeScript, Sanity",
+        image: '/content-sphere.png',
+        tags:["Next Js", "React","Tailwind CSS", "TypeScript", "Sanity"],
+        url:"https://content-sphere-one.vercel.app/"
     },
     {
-        id:2,
+        id:3,
         title:"Resume Builder",
         desc:"This is hackathon project to build a Resume Builder with the help of HTML , CSS , TypeScript",
         image: '/Hackathon.png',
@@ -56,15 +64,15 @@ export const data =[
         url:"https://hackathon-project-miles-stone-05-resume-builder.vercel.app/"
     },
     {
-        id:3,
-        title:"Figma Design",
-        desc:"Restrucutre the Figma design into Next Js and Tailwind",
-        image: '/Figma-assin1.png',
-        tags:["Next Js", "React","Tailwind CSS", ],
-        url:"https://figma-to-code-in-nextjs.vercel.app/"
+        id:4,
+        title:"Panacloud",
+        desc:"Create a Panacloud Website using HTML, CSS and JavaScript ",
+        image: '/panacloud.png',
+        tags:["HTML", "CSS", "JavaScript"],
+        url:"https://giaic-pana-cloud-website.vercel.app/"
     },
     {
-        id:4,
+        id:5,
         title:"Count Down Timer",
         desc:"Create Count Down Timer Using Next Js",
         image: '/Countdown TImer.png',
@@ -72,7 +80,7 @@ export const data =[
         url:"https://count-down-timer-alpha-beige.vercel.app/"
     },
     {
-        id:5,
+        id:6,
         title:"Todo List",
         desc:"Create a Todo-list with the help of HTML, CSS and TypeScript",
         image: '/todo-list.png',
@@ -80,7 +88,7 @@ export const data =[
         url:"https://todo-list-sigma-bay-62.vercel.app/"
     },
     {
-        id:6,
+        id:7,
         title:"Currency Converter",
         desc:"This is CLI Currency Converte which is a project of typscript using inquirer",
         image: '/currency.png',
@@ -88,7 +96,7 @@ export const data =[
         url:"https://github.com/AhmedAli0123/Currency-Converter.git"
     },
     {
-        id:7,
+        id:8,
         title:"Student Mangment System",
         desc:"This is CLI Mangement System which is a project of typscript using inquirer",
         image: '/student.jpeg',

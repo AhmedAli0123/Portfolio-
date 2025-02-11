@@ -1,5 +1,3 @@
-"use client"
-
 import React from 'react'
 import { headerItem, userInfo } from '../constans/constant'
 import Image from 'next/image'
@@ -14,7 +12,7 @@ const Intro: React.FC = () => {
   return (
     <section 
       id={headerItem.home.page} 
-      className='text-white h-screen flex flex-col text-center justify-center items-center md:flex-row md:text-start md:mt-9'
+      className='h-screen flex flex-col text-center justify-center items-center md:flex-row md:text-start md:mt-9'
     >
       {/* For Image */}
       <div>
@@ -31,7 +29,7 @@ const Intro: React.FC = () => {
 
       {/* For Text */}
       <div className='md:ml-20 sm:ml-12 md:w-1/2'>
-        <h1 className='text-7xl uppercase hidden md:block text-pink-700 font-bold' data-aos="fade-right">
+        <h1 className='text-7xl uppercase hidden md:block text-black dark:text-pink-700 font-bold' data-aos="fade-right">
           Full Stack Developer
         </h1>
         
