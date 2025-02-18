@@ -1,5 +1,5 @@
 
-// import { NavItem, UserObject,} from "./models/User"
+
 import { NavItem,UserObject } from "../models/User"
 
 
@@ -7,7 +7,7 @@ import { NavItem,UserObject } from "../models/User"
 export const userInfo: UserObject = {
     name: "Ahmed Ali",
     
-    picture: "/Profile Pic.jpg", // Corrected the image path
+    picture: "/Profile Pic.jpg", 
 
     heading: ` I&#39;m a student passionate about both Front-end and Back-end development. As part of the Governor&#39;s Initiative for Generative AI and the Presidential Initiative for Cloud Native Generative AI, I am learning the latest technologies in the field. I have experience with HTML, CSS, TypeScript, JavaScript, Python, Next.js, React, and Tailwind CSS.`,
     
@@ -30,77 +30,4 @@ export const headerItem: NavItem ={
 
 
 
-export const data =[
-    {
-        id:0,
-        title:"Food Tunk",
-        desc:"Created a Full Stack Q-commerce Website using Headless CMS",
-        image: '/food-tuunk.png',
-        tags:["Next Js", "Tailwind CSS", "JavaScript", "TypeScript", "Sanity", "Stripe"],
-        url:"https://food-tunk.vercel.app/"
-    },
-    {
-        id:1,
-        title:"Edcuate Web Page",
-        desc:"Create a Fully Responsive website using HTML, CSS and JavaScript ",
-        image: '/Responsive Site.png',
-        tags:["HTML", "CSS", "JavaScript"],
-        url:"https://fully-responsive-website-jlgc.vercel.app/"
-    },
-    {
-        id:2,
-        title:"Content Sphere",
-        desc:"Create a full Stack Blogging Website using Next Js, Tailwind CSS, TypeScript, Sanity",
-        image: '/content-sphere.png',
-        tags:["Next Js", "React","Tailwind CSS", "TypeScript", "Sanity"],
-        url:"https://content-sphere-one.vercel.app/"
-    },
-    {
-        id:3,
-        title:"Resume Builder",
-        desc:"This is hackathon project to build a Resume Builder with the help of HTML , CSS , TypeScript",
-        image: '/Hackathon.png',
-        tags:["HTML" ,"CSS"  , "TypeScript"],
-        url:"https://hackathon-project-miles-stone-05-resume-builder.vercel.app/"
-    },
-    {
-        id:4,
-        title:"Panacloud",
-        desc:"Create a Panacloud Website using HTML, CSS and JavaScript ",
-        image: '/panacloud.png',
-        tags:["HTML", "CSS", "JavaScript"],
-        url:"https://giaic-pana-cloud-website.vercel.app/"
-    },
-    {
-        id:5,
-        title:"Count Down Timer",
-        desc:"Create Count Down Timer Using Next Js",
-        image: '/Countdown TImer.png',
-        tags:["React", "Next Js" ,"Tailwind CSS"],
-        url:"https://count-down-timer-alpha-beige.vercel.app/"
-    },
-    {
-        id:6,
-        title:"Todo List",
-        desc:"Create a Todo-list with the help of HTML, CSS and TypeScript",
-        image: '/todo-list.png',
-        tags:["HTML" ,"CSS", "TypeScript"],
-        url:"https://todo-list-sigma-bay-62.vercel.app/"
-    },
-    {
-        id:7,
-        title:"Currency Converter",
-        desc:"This is CLI Currency Converte which is a project of typscript using inquirer",
-        image: '/currency.png',
-        tags:["TypeScript" ,"Node-JS", "Inquirer"  ],
-        url:"https://github.com/AhmedAli0123/Currency-Converter.git"
-    },
-    {
-        id:8,
-        title:"Student Mangment System",
-        desc:"This is CLI Mangement System which is a project of typscript using inquirer",
-        image: '/student.jpeg',
-        tags:["TypeScript" ,"Node-JS", "Inquirer"  ],
-        url:"https://github.com/AhmedAli0123/Student-Managment-System.git"
-    },
-]
+

@@ -4,9 +4,9 @@ import Image from 'next/image'
 import TypewriterComponent from 'typewriter-effect'
 
 const Intro: React.FC = () => {
-  
+  // Open the resume in new tab 
   const handleShowResume = () => {
-    window.open("/CV.pdf", "_blank")
+    window.open("/CV_2025012321310543.pdf", "_blank")
   }
 
   return (
@@ -54,10 +54,11 @@ const Intro: React.FC = () => {
           I&#39;m a student passionate about both <span className='font-bold text-pink-700'>Front-end and Back-end development</span>.
           As part of the Governor&#39;s Initiative for 
           Generative AI and the Presidential Initiative for Cloud Native Generative AI, I am learning the latest technologies 
-          in the field. I have experience with <span className='font-bold text-pink-700'>HTML</span>, <span className='font-bold text-pink-700'>CSS</span>, <span className='font-bold text-pink-700'>TypeScript</span>, <span className='font-bold text-pink-700'>JavaScript</span>, <span className='font-bold text-pink-700'>Python</span>, <span className='font-bold text-pink-700'>Next.js</span>, <span className='font-bold text-pink-700'>React</span>, and <span className='font-bold text-pink-700'>Tailwind CSS</span>.
+          in the field. I have experience with <span className='font-bold text-pink-700'>HTML</span> <span className='font-bold text-pink-700'>CSS</span> | <span className='font-bold text-pink-700'>TypeScript</span> | <span className='font-bold text-pink-700'>JavaScript</span> | <span className='font-bold text-pink-700'>Python</span> | <span className='font-bold text-pink-700'>Next.js</span> | <span className='font-bold text-pink-700'>React</span> and <span className='font-bold text-pink-700'>Tailwind CSS</span>.
         </p>
 
-        <button className='w-28 h-10 bg-pink-700 text-white rounded-md hover:bg-pink-800 transition-transform duration-200 ease-in transform hover:scale-105' onClick={handleShowResume}>
+        <button className='w-28 h-10 bg-pink-700 text-white rounded-md hover:bg-pink-800 transition-transform duration-200 ease-in transform hover:scale-105' 
+        onClick={handleShowResume}>
           View Resume
         </button>
       </div>

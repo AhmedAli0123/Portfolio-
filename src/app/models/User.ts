@@ -22,3 +22,12 @@ export interface NavItem {
 export interface propsType{
     title:string;
 }
+
+export interface project{
+    _id:string
+    title:string,
+    desc:string,
+    imageUrl:string,
+    tags:Array<string>,
+    url:string
+}
